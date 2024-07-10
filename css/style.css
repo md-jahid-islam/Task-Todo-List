@@ -1,0 +1,70 @@
+body{
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.todobox{
+    width: 600px;
+    height: 50px;
+    border: 2px solid red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.todoinput{
+    width: 500px;
+    height: 48px;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}  
+.todobutton{
+    width: 95px;
+    height: 48px;
+    border: none;
+    background: #f23;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+}
+.singletodo{
+    width: 562px;
+    height: 50px;
+    border: 2px solid #f234f2;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.singletodoinput{
+    width: 350px;
+    height: 48px;
+    background: transparent;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    font-weight: 700;
+    color: #fff;
+}
+.editbutton{
+    width: 100px;
+    height: 48px;
+    background-color: yellowgreen;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.deletebutton{
+    width: 100px;
+    height: 48px;
+    background-color: #f23;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}

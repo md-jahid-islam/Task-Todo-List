@@ -1,0 +1,23 @@
+#container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  #welcome {
+    animation: welcome-animation 2s ease-in-out;
+  }
+  
+  .player-intro {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .player-intro.shown {
+    opacity: 1;
+  }
+  
+  @keyframes welcome-animation {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
